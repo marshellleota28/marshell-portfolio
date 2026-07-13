@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marshell Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <link rel="stylesheet" th:href="@{/css/responsive.css}">
+
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<div th:replace="~{fragments/navbar :: navbar}"></div>
+
+<section id="projects" class="projects">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h5 class="section-title">
+                My Projects
+            </h5>
+
+            <h2 class="section-heading">
+                Featured Projects
+            </h2>
+
+            <p class="project-subtitle">
+                Berikut beberapa project yang pernah saya kerjakan
+                dalam bidang Software Development, Data Science,
+                dan UI/UX Design.
+            </p>
+
+        </div>
+
+        <!-- PROJECT 1 -->
+
+<div class="project-card">
+
+    <span class="project-category">
+        Software Development
+    </span>
+
+    <h2>
+        Desa Wisata Ngrawan
+    </h2>
+
+    <div class="tech-stack">
+
+        <span>Laravel</span>
+        <span>PHP</span>
+        <span>Bootstrap</span>
+        <span>MySQL</span>
+
+    </div>
+
+    <p>
+
+        Official tourism website for Desa Wisata Ngrawan, developed using
+        Laravel Framework. The website provides comprehensive information
+        about tourist destinations, local culture, culinary experiences,
+        accommodations, events, and village attractions through a modern,
+        responsive, and user-friendly interface.
+
+    </p>
+
+    <div class="project-button">
+
+        <a href="https://github.com/marshellleota28/Projek-laravel-desa-wisata-ngrawan"
+           target="_blank"
+           class="btn btn-primary">
+
+            <i class="bi bi-github"></i>
+            GitHub
+
+        </a>
+
+        <a href="https://ngrawan.id/"
+           target="_blank"
+           class="btn btn-outline-info">
+
+            <i class="bi bi-globe"></i>
+            Website
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="project-card">
+
+    <span class="project-category">
+        Software Development
+    </span>
+
+    <h2>
+        EcoNusantara
+    </h2>
+
+    <div class="tech-stack">
+
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+
+    </div>
+
+    <p>
+
+        EcoNusantara is a community-based reforestation web platform
+        developed for the U-IDEA competition. The website encourages
+        public participation in environmental conservation through
+        tree planting donations, transparent fund management, real-time
+        monitoring, and educational content presented in a modern,
+        responsive, and user-friendly interface.
+
+    </p>
+
+    <div class="project-button">
+
+        <a href="https://github.com/marshellleota28/EcoNusantara--U-Idea"
+           target="_blank"
+           class="btn btn-primary">
+
+            <i class="bi bi-github"></i>
+            GitHub
+
+        </a>
+
+        <a href="http://eco-nusantara.web.id/"
+           target="_blank"
+           class="btn btn-outline-info">
+
+            <i class="bi bi-globe"></i>
+            Website
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="project-card">
+
+    <span class="project-category">
+        Software Development
+    </span>
+
+    <h2>
+        Rental Management Servis
+    </h2>
+
+    <div class="tech-stack">
+
+        <span>Spring Boot</span>
+        <span>Java</span>
+        <span>Eureka Server</span>
+        <span>API Gateway</span>
+        <span>MySQL</span>
+        <span>MongoDB</span>
+
+    </div>
+
+    <p>
+
+        A microservices-based rental management system built with
+        Spring Boot. The project implements Eureka Service Discovery
+        and Spring Cloud API Gateway to enable dynamic service
+        registration, centralized request routing, and seamless
+        communication between independent MySQL and MongoDB services.
+
+    </p>
+
+    <div class="project-button">
+
+        <a href="https://github.com/marshellleota28/springboot-eureka-api-gateway"
+           target="_blank"
+           class="btn btn-primary">
+
+            <i class="bi bi-github"></i>
+            GitHub
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<div class="project-card">
+
+    <span class="project-category">
+        UI/UX Design
+    </span>
+
+    <h2>
+        FitLife Mobile App
+    </h2>
+
+    <div class="tech-stack">
+
+        <span>Figma</span>
+        <span>UI Design</span>
+        <span>UX Design</span>
+        <span>Prototype</span>
+
+    </div>
+
+    <p>
+
+        FitLife is a mobile fitness application designed for the
+        ACLEC 2nd UI/UX Competition. The project focuses on creating
+        an intuitive user experience for workout tracking, nutrition
+        management, and healthy lifestyle planning through a modern
+        and user-centered interface.
+
+    </p>
+
+    <div class="project-button">
+
+        <a href="https://github.com/marshellleota28/fitlife-uiux"
+           target="_blank"
+           class="btn btn-primary">
+
+            <i class="bi bi-github"></i>
+            GitHub
+
+        </a>
+
+        <a href="https://www.behance.net/marshellleota"
+           target="_blank"
+           class="btn btn-outline-warning">
+
+            <i class="bi bi-behance"></i>
+            Behance
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<div class="project-card">
+
+    <span class="project-category">
+        UI/UX Design
+    </span>
+
+    <h2>
+        BookNest Prototype
+    </h2>
+
+    <div class="tech-stack">
+
+        <span>Figma</span>
+        <span>UI Design</span>
+        <span>UX Design</span>
+        <span>Prototype</span>
+
+    </div>
+
+    <p>
+
+        BookNest is a modern online bookstore prototype designed to
+        provide a seamless shopping experience. The interface focuses
+        on clean navigation, efficient product discovery, and an
+        engaging checkout flow while maintaining a responsive and
+        visually appealing design.
+
+    </p>
+
+    <div class="project-button">
+
+        <a href="https://github.com/marshellleota28/BookNest---Desain-Prototype-"
+           target="_blank"
+           class="btn btn-primary">
+
+            <i class="bi bi-github"></i>
+            GitHub
+
+        </a>
+
+        <a href="https://www.behance.net/marshellleota"
+           target="_blank"
+           class="btn btn-outline-warning">
+
+            <i class="bi bi-behance"></i>
+            Behance
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="project-card">
+
+    <span class="project-category">
+        UI/UX Design
+    </span>
+
+    <h2>
+        Desa Wisata Ngrawan UI/UX
+    </h2>
+
+    <div class="tech-stack">
+
+        <span>Figma</span>
+        <span>UI Design</span>
+        <span>UX Design</span>
+        <span>Prototype</span>
+
+    </div>
+
+    <p>
+
+        UI/UX prototype for the Desa Wisata Ngrawan tourism website.
+        The design emphasizes accessibility, intuitive navigation,
+        and an engaging visual experience to help visitors explore
+        destinations, local culture, accommodations, and tourism
+        information more effectively.
+
+    </p>
+
+    <div class="project-button">
+
+        <a href="https://github.com/marshellleota28/desa-ngrawan-uiux"
+           target="_blank"
+           class="btn btn-primary">
+
+            <i class="bi bi-github"></i>
+            GitHub
+
+        </a>
+
+        <a href="https://www.behance.net/marshellleota"
+           target="_blank"
+           class="btn btn-outline-warning">
+
+            <i class="bi bi-behance"></i>
+            Behance
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+    
+
+ </div>
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="text-center py-4">
+
+    © 2026 Marshell Leota Timang • All Rights Reserved
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script th:src="@{/js/script.js}"></script>
+    
+</body>
+</html>

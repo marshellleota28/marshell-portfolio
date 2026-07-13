@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Bookstore",
+    "category": "UI/UX DESAIN",
+    "description": "Web-based bookstore built with Spring Boot.",
+    "image": "/images/projects/bookstore.png",
+    "github": "https://github.com/username/bookstore",
+    "website": "https://bookstore.marshell.dev",
+    "figma": ""
+  }
+]

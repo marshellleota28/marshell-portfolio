@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | Marshell Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <link rel="stylesheet" th:href="@{/css/responsive.css}">
+
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<div th:replace="~{fragments/navbar :: navbar}"></div>
+
+
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h5 class="section-title">
+                CONTACT
+            </h5>
+
+            <h2 class="section-heading">
+                Let's Work Together
+            </h2>
+
+            <p class="contact-subtitle">
+
+                I'm open to internship opportunities, freelance projects,
+                collaborations, and software development discussions.
+
+            </p>
+
+        </div>
+
+        <div class="contact-box">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h3>
+                        Get In Touch
+                    </h3>
+
+                    <p class="contact-desc">
+
+                        Feel free to contact me if you have a project,
+                        internship opportunity, or collaboration.
+                        I'll be happy to discuss it with you.
+
+                    </p>
+
+                    <div class="contact-item">
+
+                        <i class="bi bi-envelope-fill"></i>
+
+                        <div>
+
+                            <h6>Email</h6>
+
+                            <a href="mailto:henriquez280904@gmail.com">
+                                henriquez280904@gmail.com
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <i class="bi bi-whatsapp"></i>
+
+                        <div>
+
+                            <h6>WhatsApp</h6>
+
+                            <a href="https://wa.me/6285939728850"
+                            target="_blank">
+                                +62 859-3972-8850
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        <div>
+
+                            <h6>Location</h6>
+
+                            <span>
+                                Salatiga, Central Java, Indonesia
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="social-card">
+
+                        <h4>
+                            Connect With Me
+                        </h4>
+
+                        <div class="social-links">
+
+                            <a href="https://github.com/marshellleota28"
+                               target="_blank">
+
+                                <i class="bi bi-github"></i>
+                                GitHub
+
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/marshell-leota-timang-a60a6a263"
+                               target="_blank">
+
+                                <i class="bi bi-linkedin"></i>
+                                LinkedIn
+
+                            </a>
+
+                            <a href="https://www.behance.net/marshellleota"
+                               target="_blank">
+
+                                <i class="bi bi-behance"></i>
+                                Behance
+
+                            </a>
+
+                            <a href="https://www.instagram.com/leonnmarzz__28"
+                               target="_blank">
+
+                                <i class="bi bi-instagram"></i>
+                                Instagram
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="text-center py-4">
+
+    © 2026 Marshell Leota Timang • All Rights Reserved
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script th:src="@{/js/script.js}"></script>
+    
+    
+</body>
+</html>
