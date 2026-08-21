@@ -97,6 +97,8 @@ filterButtons.forEach(button => {
 
 const counters = document.querySelectorAll(".counter");
 
+if ("IntersectionObserver" in window) {
+
 const observer = new IntersectionObserver((entries) => {
 
     entries.forEach(entry => {
@@ -144,5 +146,13 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 counters.forEach(counter=>observer.observe(counter));
+
+} else {
+
+    counters.forEach(counter => {
+        counter.innerText = counter.dataset.target + "+";
+    });
+
+}
 
 

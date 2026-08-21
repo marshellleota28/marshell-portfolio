@@ -1314,3 +1314,25 @@ html{
     color:#38bdf8;
 
 }
+
+/*==========================
+        FOOTER
+==========================*/
+
+footer{
+
+    background:#0f172a;
+
+    border-top:1px solid rgba(56,189,248,.15);
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+}
+
+footer:hover{
+
+    color:#cbd5e1;
+
+}
