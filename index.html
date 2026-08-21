@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 
 <head>
 
@@ -20,9 +20,9 @@
           rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="static/css/style.css">
 
-    <link rel="stylesheet" th:href="@{/css/responsive.css}">
+    <link rel="stylesheet" href="static/css/responsive.css">
 
     <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
@@ -31,7 +31,23 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 
 <body>
-<div th:replace="~{fragments/navbar :: navbar}"></div>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-white fs-3" href="index.html">Marshell</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <section class="hero">
 
@@ -69,7 +85,7 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
                 <div class="mt-4">
 
-                <a th:href="@{/files/CV_Marshell Leota Timang.pdf}"
+                <a href="static/files/CV_Marshell_Leota_Timang.pdf"
                 class="btn btn-primary btn-lg me-3"
                 download>
 
@@ -165,7 +181,7 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
             <div class="col-lg-4 text-center mb-4">
 
-                <img src="/images/MARSHELL.jpeg"
+                <img src="static/images/MARSHELL.jpeg"
                      class="about-image"
                      alt="Profile">
 
@@ -1067,7 +1083,7 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-<script th:src="@{/js/script.js}"></script>
+<script src="static/js/script.js"></script>
 
 </body>
 </html>
