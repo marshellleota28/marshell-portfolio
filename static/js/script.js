@@ -1,7 +1,7 @@
 const text = [
-    "Software Developer",
-    "Data Science",
-    "UI/UX Designer",
+    "Web Developer",
+    "Data Engineer",
+    "UI/UX Design",
 ];
 
 let index = 0;
